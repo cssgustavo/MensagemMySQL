@@ -1,0 +1,9 @@
+CREATE TABLE tbl_mensagem(
+    id_msg NUMBER,
+    ds_assunto VARCHAR2(80),
+    nm_dest VARCHAR2(50),
+    nm_reme VARCHAR2 (50),
+    dt_date DATE,
+    ds_conteudo VARCHAR2 (200),
+    pr_msg INT
+);
